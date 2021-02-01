@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    position: relative;
+}
+p{
+    font-family: "open-sans" sans-serif;
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)), url(../back2.jpg) center/cover no-repeat;
+}
+.navbar-default{
+    background-color: white;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: rgba(0, 0, 0, 0.7);
+    transition: all 500ms ease;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    font-size: 2rem;
+}
+.content{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    padding: 24rem 0.5rem 
+}
+.content h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+    letter-spacing: 0.25rem;
+    color: seashell;
+    padding-bottom: 4rem;
+}
+@media all and (max-width: 768px){
+    .content h1{
+        font-size: 3rem;
+    }
+}
+.content p{
+    font-family: 'Open Sans', sans-serif;
+    color: seashell;
+    padding-bottom: 4rem;
+}
+.content button{
+    padding: 1rem 3rem;
+    border: none;
+    transition: all 500ms ease;
+}
+.content button:hover{
+    background-color: seashell;
+    color: #EEA236;
+}
+.part1{
+    background-color: #4b9e9b;
+}
+.part2{
+    background-color: #b8634e;
+}
+.part3{
+    background-color: #83c763;
+}
+.comp1{
+    padding: 10rem 2rem;
+}
+.comp1 h2{
+    padding-bottom: 4rem;
+}
+.comp1 p{
+    padding-bottom: 4rem;
+}
+.comp1 button{
+    padding: 1rem 3rem;
+    border: none;
+    transition: all 500ms ease;
+}
+.comp1 button:hover{
+    background-color: seashell;
+    color: #EEA236;
+}
+.part2 .comp1 button:hover{
+    color: #5BC0DE;
+}
+.part3 .comp1 button:hover{
+    color: #d9534f;
+}
+.comp1 .glyphicon{
+    font-size: 7rem;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.comp1 .glyphicon:hover{
+    color: #5BC0DE;
+}
+.part2 p{
+    text-align: left;
+    letter-spacing: 0.125rem;
+    padding-top: 2rem;
+}
+.none-padding{
+    padding-right: 0;
+    padding-left: 0;
+}
+.img-box{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+.hover-box{
+    position: absolute;
+    top: 0;
+    /* margin: 0 auto; */
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 188, 76, 0.8);
+    color: white;
+    opacity: 0;
+    transition: all 500ms ease;
+}
+.hover-box:hover{
+    opacity: 1;
+}

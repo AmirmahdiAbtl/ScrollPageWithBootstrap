@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!--font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;  -->
+    
+    <title>Document</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+      <main>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Pshop</a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#">Home</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+          <div class="content">
+            <h1 class="title">PShoping WebSite</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis hendrerit dolor, quis posuere quam. In rhoncus, turpis nec tempor suscipit, ipsum dui pretium sem, a mollis urna nisi id nisl. Proin porttitor maximus fringilla. Phasellus fringilla augue turpis, volutpat pretium quam cursus ut. Quisque pulvinar fringilla justo facilisis auctor. Ut vulputate ligula vel ipsum aliquam, at viverra urna imperdiet. Cras efficitur neque ligula, non porttitor ante fringilla eu.</p>
+            <a href="#about" data-toggle="tooltip" title="About us" data-placement="bottom"><button class="btn btn-warning" href="#about">About</button></a>
+          </div>
+        </div>
+        
+      </main>
+      <div class="mainContent">
+          <div class="part1" id="about">
+            <div class="container">
+              <div class="col-md-12 text-center comp1">
+                <h2 class="title">About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis hendrerit dolor, quis posuere quam. In rhoncus, turpis nec tempor suscipit, ipsum dui pretium sem, a mollis urna nisi id nisl. Proin porttitor maximus fringilla. Phasellus fringilla augue turpis,</p>
+                <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Contact Us</button>
+                <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Contact Us</h4>
+                      </div>
+                      <div class="modal-body">
+                        <form action="">
+                          <div class="form-group">
+                            <label for="username">Username:</label>
+                            <input type="email" class="form-control" id="username">
+                          </div>
+                          <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="password" class="form-control" id="email">
+                          </div>
+                          <div class="form-group">
+                            <label for="pwd">Enter Your Message:</label>
+                            <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="part2" id="services">
+            <div class="container">
+              <div class="col-md-12 text-center comp1">
+                <h2 class="title">Services</h2>
+                <div class="col-md-12">
+                  <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                    <span class="glyphicon glyphicon-download"></span>
+                    <h3 class="title">Download Host</h3>
+                    <p>Maecenas porttitor dui quam, vitae accumsan nisi rutrum vel. Pellentesque id volutpat dolor, sit amet elementum nibh.</p>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                    <span class="glyphicon glyphicon-briefcase"></span>
+                    <h3 class="title">business</h3>
+                    <p>Maecenas porttitor dui quam, vitae accumsan nisi rutrum vel. Pellentesque id volutpat dolor, sit amet elementum nibh.</p>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                    <span class="glyphicon glyphicon-hdd"></span>
+                    <h3 class="title">ُُSSD Host</h3>
+                    <p>Maecenas porttitor dui quam, vitae accumsan nisi rutrum vel. Pellentesque id volutpat dolor, sit amet elementum nibh.</p>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    <h3 class="title">Shoping Host</h3>
+                    <p>Maecenas porttitor dui quam, vitae accumsan nisi rutrum vel. Pellentesque id volutpat dolor, sit amet elementum nibh.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="part3" id="portfolio">
+            <div class="part3-content col-md-12 none-padding">
+                <div class="col-md-4 col-sm-6 col-xs-12 none-padding">
+                  <a href="#" class="img-box">
+                    <img src="host1.jpg" alt="" class="img-responsive">
+                    <div class="hover-box">
+                      <span></span><span></span><span></span>
+                      <h3 class="title-box">Free Host</h3>
+                      <p class="content-box">you can use this plan for testing your beta web Page</p>
+                      <span></span><span></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 none-padding">
+                  <a href="#" class="img-box">
+                    <img src="host6.jpg" alt="" class="img-responsive">
+                    <div class="hover-box">
+                      <span></span><span></span><span></span>
+                      <h3 class="title-box">Free Host</h3>
+                      <p class="content-box">you can use this plan for testing your beta web Page</p>
+                      <span></span><span></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 none-padding">
+                  <a href="#" class="img-box">
+                    <img src="host2.jpg" alt="" class="img-responsive">
+                    <div class="hover-box">
+                      <span></span><span></span><span></span>
+                      <h3 class="title-box">Free Host</h3>
+                      <p class="content-box">you can use this plan for testing your beta web Page</p>
+                      <span></span><span></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 none-padding">
+                  <a href="#" class="img-box">
+                    <img src="host2.jpg" alt="" class="img-responsive">
+                    <div class="hover-box">
+                      <span></span><span></span><span></span>
+                      <h3 class="title-box">Free Host</h3>
+                      <p class="content-box">you can use this plan for testing your beta web Page</p>
+                      <span></span><span></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 none-padding">
+                  <a href="#" class="img-box">
+                    <img src="host1.jpg" alt="" class="img-responsive">
+                    <div class="hover-box">
+                      <span></span><span></span><span></span>
+                      <h3 class="title-box">Free Host</h3>
+                      <p class="content-box">you can use this plan for testing your beta web Page</p>
+                      <span></span><span></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 none-padding">
+                  <a href="#" class="img-box">
+                    <img src="host6.jpg" alt="" class="img-responsive">
+                    <div class="hover-box">
+                      <span></span><span></span><span></span>
+                      <h3 class="title-box">Free Host</h3>
+                      <p class="content-box">you can use this plan for testing your beta web Page</p>
+                      <span></span><span></span>
+                    </div>
+                  </a>
+                </div>
+            </div>
+          </div>
+      </div>
+      <script src="js/app.js"></script>
+</body>
+</html>
